@@ -10,12 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //Initial Commit Comment
+   
+    @IBOutlet var questionLabel: UILabel!
+    @IBOutlet var answerLabel: UILabel!
+    
+    @IBAction func showNextQuestion(sender: AnyObject){
         
     }
-
+    @IBAction func showAnswer(sender: AnyObject){
+        
+    }
 
 }
 
